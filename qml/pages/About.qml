@@ -49,7 +49,7 @@ Page {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 1250
             text: qsTr("Source code")
-            onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-frome");
+            onClicked: Qt.openUrlExternally("https://github.com/arustg/harbour-elzzup");
         }
     }
 }
