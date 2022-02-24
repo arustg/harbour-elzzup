@@ -1,1 +1,2 @@
-# harbour-elzzup
+# Elzzup
+Picture puzzle game
