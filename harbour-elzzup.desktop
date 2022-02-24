@@ -2,11 +2,11 @@
 Type=Application
 Icon=harbour-elzzup
 Exec=harbour-elzzup
-Name=ElzzUP
-Name[de]=ElzzUP
+Name=Elzzup
+Name[de]=Elzzup
 
 [X-Sailjail]
 Sandboxing=Enabled
 Permissions=UserDirs;MediaIndexing;RemovableMedia
 OrganizationName=openrepos.net
-ApplicationName=ElzzUP
+ApplicationName=Elzzup
