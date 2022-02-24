@@ -45,9 +45,9 @@ SilicaFlickable {
     }
 
     Row {
-        spacing: Theme.itemSizeSmall
+        spacing: Theme.itemSizeMedium
         anchors.horizontalCenter: parent.horizontalCenter
-        y: 500
+        y: 1500
         Switch {
             automaticCheck: false
             checked: !diffLevel
@@ -59,11 +59,6 @@ SilicaFlickable {
                 y: -70
             }
         }
-    }
-    Row {
-        spacing: Theme.itemSizeSmall
-        anchors.horizontalCenter: parent.horizontalCenter
-        y: 1400
         Switch {
             automaticCheck: false
             checked: diffLevel
@@ -76,6 +71,7 @@ SilicaFlickable {
             }
         }
     }
+
   }
 }
 
