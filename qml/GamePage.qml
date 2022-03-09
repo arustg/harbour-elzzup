@@ -65,7 +65,7 @@ SilicaFlickable {
             onClicked: diffLevel = true
            Label {
                anchors.horizontalCenter: parent.horizontalCenter
-                text: "7 x 7"
+                text: "6 x 6"
                 font.pixelSize: Theme.fontSizeLarge
                 y: -70
             }
