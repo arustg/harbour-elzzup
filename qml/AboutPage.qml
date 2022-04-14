@@ -6,12 +6,7 @@ Page {
     allowedOrientations: Orientation.Portrait
 
     SilicaListView {
-        id: listView
-        model: 20
         anchors.fill: parent
-        header: PageHeader {
-            title: qsTr("")
-        }
 
         Image {
             id: icon

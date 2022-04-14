@@ -7,7 +7,6 @@ Page {
     allowedOrientations: Orientation.Portrait
 
     property string backImageFilePath : ""
-    property string fileName : idFilenameNew.text.toString()
 
     property bool diffLevel
 

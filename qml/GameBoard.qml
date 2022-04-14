@@ -1,8 +1,9 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-//import Elzzup.puzzle 1.0
+import Elzzup.puzzle 1.0
 import "./components"
 import "./components/style"
+
 
 PuzzleBoard {
     function play() {
@@ -75,11 +76,11 @@ PuzzleBoard {
             radius: width / 2
             anchors.centerIn: parent
 
-            Image {
-                anchors.fill: parent
-                fillMode: Image.Stretch
-                source: "qrc:/pics/rotation-guide.png"
-            }
+//            Image {
+//                anchors.fill: parent
+//                fillMode: Image.Stretch
+//                source: "qrc:/pics/rotation-guide.png"
+//            }
 
             MouseArea {
                 id: rotationGuideMouseArea
@@ -102,25 +103,25 @@ PuzzleBoard {
         }
     }
 
-    Image {
-        anchors.fill: parent
-        source: "qrc:/pics/background.jpg"
-        fillMode: Image.Tile
-        z: -1
+//    Image {
+//        anchors.fill: parent
+//        source: "qrc:/pics/background.jpg"
+//        fillMode: Image.Tile
+//        z: -1
 
-        Rectangle {
-            anchors {
-                left: parent.left
-                right: parent.right
-                top: parent.top
-            }
-            gradient: Gradient {
-                GradientStop { color: "#77000000"; position: 0.0 }
-                GradientStop { color: "#00000000"; position: 1.0 }
-            }
-            height: 70
-        }
-    }
+//        Rectangle {
+//            anchors {
+//                left: parent.left
+//                right: parent.right
+//                top: parent.top
+//            }
+//            gradient: Gradient {
+//                GradientStop { color: "#77000000"; position: 0.0 }
+//                GradientStop { color: "#00000000"; position: 1.0 }
+//            }
+//            height: 70
+//        }
+//    }
     Panel {
         id: menuButtonPanel
         z: 200

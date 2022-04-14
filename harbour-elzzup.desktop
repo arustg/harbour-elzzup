@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
+X-Nemo-Application-Type=silica-qt5
 Icon=harbour-elzzup
 Exec=harbour-elzzup
 Name=Elzzup
-Name[de]=Elzzup
 
 [X-Sailjail]
 Sandboxing=Enabled
 Permissions=UserDirs;MediaIndexing;RemovableMedia
-OrganizationName=openrepos.net
-ApplicationName=Elzzup
+OrganizationName=harbour-elzzup
+ApplicationName=harbour-elzzup

@@ -12,7 +12,7 @@ Summary:    Picture puzzle game
 Version:    1.0
 Release:    0
 Group:      Qt/Qt
-License:    LICENSE
+License:    GNU GPLv3
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-elzzup.yaml

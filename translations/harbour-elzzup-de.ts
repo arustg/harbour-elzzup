@@ -286,4 +286,11 @@ Are you sure to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Puzzle Master</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>

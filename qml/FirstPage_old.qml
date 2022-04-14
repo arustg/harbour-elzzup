@@ -6,14 +6,9 @@ import "./components/style"
 
 ApplicationWindow {
 
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
+    cover: Qt.resolvedUrl("CoverPage.qml")
     allowedOrientations: defaultAllowedOrientations
 
-
-//Rectangle {
-//    width: initialSize.width
-//    height: initialSize.height
-//    color: "#000000"
     id: appWindow
 
     property bool filePickerOnStart: false

@@ -163,11 +163,11 @@ Panel {
         }
         clip: true
 
-        Image {
-            anchors.fill: parent
-            source: "qrc:/pics/background.jpg"
-            fillMode: Image.Tile
-        }
+//        Image {
+//            anchors.fill: parent
+//            source: "qrc:/pics/background.jpg"
+//            fillMode: Image.Tile
+//        }
         Rectangle {
             anchors {
                 left: parent.left
