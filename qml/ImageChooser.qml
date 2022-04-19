@@ -254,7 +254,7 @@ Panel {
                     height: imageSelectorGrid.cellHeight - 25
                     clip: true
                     anchors.centerIn: parent
-                    source: appWindow.pathToUrl(path)
+                    source:  "/usr/share/harbour-elzzup/images/add.png"
                     sourceSize {
                         width: imageSelectorGrid.cellWidth - 25
                     }
