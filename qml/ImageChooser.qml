@@ -250,13 +250,13 @@ Panel {
                     id: delegateImage
                     asynchronous: false
                     fillMode: Image.PreserveAspectCrop
-                    width: imageSelectorGrid.cellWidth - 25
-                    height: imageSelectorGrid.cellHeight - 25
+                    width: 100
+                    height: 100
                     clip: true
                     anchors.centerIn: parent
                     source:  "/usr/share/harbour-elzzup/images/add.png"
                     sourceSize {
-                        width: imageSelectorGrid.cellWidth - 25
+                        width: 100
                     }
                 }
                 MouseArea {
