@@ -1,2 +1,2 @@
-# Elzzup
+# Reimage
 Picture puzzle game
