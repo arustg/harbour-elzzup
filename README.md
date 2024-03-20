@@ -1,2 +1,2 @@
-# Reimage
+# Reimazer
 Picture puzzle game
